@@ -31,10 +31,12 @@
   --mb-6: 3rem;
 
   /*===== z index =====*/
-  
+  --z-fixed:100;
   
   /*===== Rotate img =====*/
-  
+  --rotate-img: rotate(-30deg);
+}
+
 
 /*===== BASE =====*/
 
