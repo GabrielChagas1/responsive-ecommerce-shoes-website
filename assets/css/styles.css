@@ -86,7 +86,29 @@ img{
 }
 
 /*===== CLASS CSS ===== */
+.section{
+  padding: 5rem 0 2rem;
+}
 
+.section-title{
+  position: relative;
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+  letter-spacing: .1rem;
+}
+
+.sectin-title::after{
+  content: '';
+  position: absolute;
+  width: 56px;
+  height: .18rem;
+  top: -1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: var(--dark-color);
+}
 
 /*===== LAYOUT =====*/
 
