@@ -37,6 +37,16 @@
   --rotate-img: rotate(-30deg);
 }
 
+@media screen and (min-width: 768px) {
+  :root{
+    --big-font-size: 1.5rem;
+    --bigger-font-size: 2rem;
+    --biggets-font-size: 3rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: .875rem;
+
+  }
+}
 
 /*===== BASE =====*/
 
