@@ -551,4 +551,27 @@ img{
 }
 
 /* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 576px){
+  .collection__container{
+    grid-template-columns: 415px;
+  }
+
+  .collection__img{
+    width: 260px;
+  }
+
+  .offer__container{
+    grid-template-columns: max-content max-content;
+  }
+
+  .offer__data{
+    text-align: center;
+  }
+
+  .new__mens{
+    align-items: center;
+  }
+}
+
+
 
